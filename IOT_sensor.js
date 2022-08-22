@@ -1,0 +1,11 @@
+setChartLibrary('google-chart');
+setChartTitle('Gauge Chart');
+setAxisName('Light_data');
+setCrosshair(true);
+setChartType('gauge');
+setDimensions(400,400);
+setMaxValue(1023);
+setGreen(250, 500);
+setYellow(501, 725);
+setRed(726, 1023);
+plotChart("time_stamp","key");
